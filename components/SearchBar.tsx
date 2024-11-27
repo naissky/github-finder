@@ -24,7 +24,7 @@ export function SearchBar({ onSearch }: SearchBarProps) {
           type="text"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Search GitHub username..."
+          placeholder="Search GitHub profile..."
           className="w-full px-4 py-3 pl-12 bg-[#364153] text-[#CDD5E0] rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
         />
         <Search className="absolute left-4  text-[#CDD5E0]" size={20} />
