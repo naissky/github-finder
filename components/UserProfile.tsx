@@ -74,7 +74,8 @@ export function UserProfile({ user }: UserProfileProps) {
             href={user.blog || '#'}
             target="_blank"
             rel="noopener noreferrer"
-            className={user.blog ? 'hover:underline text-[#3662E3]' : ''}
+            className={user.blog ? 'hover:underline text-[#3662E3] truncate' : ''}
+            aria-setsize={20}
           >
             {user.blog || 'Not available'}
           </a>
